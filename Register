@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>註冊頁面</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="login.js"></script>
+</head>
+
+<body>
+    <table width="100%" height="100%">
+        　<tr>
+            <td align="center" valign="center">
+                <div id="login_frame">
+                    <p id="image_logo"><img src="image/logo.jpg"></p>
+                    <form method="post" action="login.js">
+                        <p><label class="label_input">帳號</label><input type="text" id="username" class="text_field" />
+                        </p>
+                        <p><label class="label_input">密碼</label><input type="password" id="password"
+                                class="text_field" /></p>
+                        <p><label class="label_input">確認密碼</label><input type="password" id="password_1"
+                                class="text_field" /></p>
+                        <p><label class="label_input">電子信箱</label><input type="email" id="email" class="text_field" />
+                        </p>
+                        <p><label class="label_input">驗證碼</label><input type="text" id="verification code"
+                                class="text_field" /></p>
+                        <div id="login_control">
+                            <input type="button" id="btn_register" value="註冊" onclick="location.href='登入.html'" />
+                            <input type="button" id="btn_verification code" value="取得驗證碼" onclick="location.href=''" />
+                        </div>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
